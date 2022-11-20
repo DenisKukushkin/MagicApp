@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		AC976E47292A27360004E93F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E46292A27360004E93F /* AppDelegate.swift */; };
 		AC976E49292A27360004E93F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E48292A27360004E93F /* SceneDelegate.swift */; };
-		AC976E4B292A27360004E93F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E4A292A27360004E93F /* ViewController.swift */; };
+		AC976E4B292A27360004E93F /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E4A292A27360004E93F /* StartViewController.swift */; };
 		AC976E4E292A27360004E93F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC976E4C292A27360004E93F /* Main.storyboard */; };
 		AC976E50292A27380004E93F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC976E4F292A27380004E93F /* Assets.xcassets */; };
 		AC976E53292A27380004E93F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC976E51292A27380004E93F /* LaunchScreen.storyboard */; };
+		AC976E5B292A33B00004E93F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E5A292A33B00004E93F /* LoginViewController.swift */; };
+		AC976E5D292A33FB0004E93F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E5C292A33FB0004E93F /* WelcomeViewController.swift */; };
+		AC976E5F292A34A00004E93F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E5E292A34A00004E93F /* User.swift */; };
+		AC976E61292A34E70004E93F /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E60292A34E70004E93F /* InformationViewController.swift */; };
+		AC976E63292A35200004E93F /* MoreInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E62292A35200004E93F /* MoreInformationViewController.swift */; };
+		ACF8C3F3292A404A00C28D91 /* MagicianListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF8C3F2292A404A00C28D91 /* MagicianListViewController.swift */; };
+		ACF8C3F5292A406300C28D91 /* MagicianDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF8C3F4292A406300C28D91 /* MagicianDetailsViewController.swift */; };
+		ACF8C3F7292A4C7A00C28D91 /* Magician.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF8C3F6292A4C7A00C28D91 /* Magician.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC976E43292A27360004E93F /* MagicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC976E46292A27360004E93F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC976E48292A27360004E93F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC976E4A292A27360004E93F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC976E4A292A27360004E93F /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		AC976E4D292A27360004E93F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC976E4F292A27380004E93F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC976E52292A27380004E93F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC976E54292A27380004E93F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC976E5A292A33B00004E93F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AC976E5C292A33FB0004E93F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		AC976E5E292A34A00004E93F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AC976E60292A34E70004E93F /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		AC976E62292A35200004E93F /* MoreInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInformationViewController.swift; sourceTree = "<group>"; };
+		ACF8C3F2292A404A00C28D91 /* MagicianListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicianListViewController.swift; sourceTree = "<group>"; };
+		ACF8C3F4292A406300C28D91 /* MagicianDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicianDetailsViewController.swift; sourceTree = "<group>"; };
+		ACF8C3F6292A4C7A00C28D91 /* Magician.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magician.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,63 @@
 		AC976E45292A27360004E93F /* MagicApp */ = {
 			isa = PBXGroup;
 			children = (
-				AC976E46292A27360004E93F /* AppDelegate.swift */,
-				AC976E48292A27360004E93F /* SceneDelegate.swift */,
-				AC976E4A292A27360004E93F /* ViewController.swift */,
-				AC976E4C292A27360004E93F /* Main.storyboard */,
-				AC976E4F292A27380004E93F /* Assets.xcassets */,
-				AC976E51292A27380004E93F /* LaunchScreen.storyboard */,
-				AC976E54292A27380004E93F /* Info.plist */,
+				AC976E65292A358F0004E93F /* Models */,
+				AC976E67292A35B30004E93F /* StoryBoards */,
+				AC976E64292A35690004E93F /* ViewControllers */,
+				AC976E66292A35A50004E93F /* Resources */,
+				AC976E68292A35D70004E93F /* App */,
 			);
 			path = MagicApp;
+			sourceTree = "<group>";
+		};
+		AC976E64292A35690004E93F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC976E4A292A27360004E93F /* StartViewController.swift */,
+				AC976E5A292A33B00004E93F /* LoginViewController.swift */,
+				AC976E5C292A33FB0004E93F /* WelcomeViewController.swift */,
+				AC976E60292A34E70004E93F /* InformationViewController.swift */,
+				AC976E62292A35200004E93F /* MoreInformationViewController.swift */,
+				ACF8C3F2292A404A00C28D91 /* MagicianListViewController.swift */,
+				ACF8C3F4292A406300C28D91 /* MagicianDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AC976E65292A358F0004E93F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ACF8C3F6292A4C7A00C28D91 /* Magician.swift */,
+				AC976E5E292A34A00004E93F /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC976E66292A35A50004E93F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC976E4F292A27380004E93F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC976E67292A35B30004E93F /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				AC976E51292A27380004E93F /* LaunchScreen.storyboard */,
+				AC976E4C292A27360004E93F /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		AC976E68292A35D70004E93F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AC976E46292A27360004E93F /* AppDelegate.swift */,
+				AC976E48292A27360004E93F /* SceneDelegate.swift */,
+				AC976E54292A27380004E93F /* Info.plist */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +202,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC976E4B292A27360004E93F /* ViewController.swift in Sources */,
+				AC976E5B292A33B00004E93F /* LoginViewController.swift in Sources */,
+				ACF8C3F3292A404A00C28D91 /* MagicianListViewController.swift in Sources */,
+				AC976E5D292A33FB0004E93F /* WelcomeViewController.swift in Sources */,
+				AC976E61292A34E70004E93F /* InformationViewController.swift in Sources */,
+				AC976E5F292A34A00004E93F /* User.swift in Sources */,
+				AC976E4B292A27360004E93F /* StartViewController.swift in Sources */,
+				ACF8C3F5292A406300C28D91 /* MagicianDetailsViewController.swift in Sources */,
+				AC976E63292A35200004E93F /* MoreInformationViewController.swift in Sources */,
 				AC976E47292A27360004E93F /* AppDelegate.swift in Sources */,
+				ACF8C3F7292A4C7A00C28D91 /* Magician.swift in Sources */,
 				AC976E49292A27360004E93F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +360,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MagicApp/Info.plist;
+				INFOPLIST_FILE = MagicApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,7 +390,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MagicApp/Info.plist;
+				INFOPLIST_FILE = MagicApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
