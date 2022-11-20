@@ -9,15 +9,15 @@ import UIKit
 
 class MagicianDetailsViewController: UIViewController {
 
-    @IBOutlet var coverImageView: UIImageView!
-    @IBOutlet var trackNameLabel: UILabel!
+    @IBOutlet var magicianImageView: UIImageView!
+    @IBOutlet var descriptionLabel: UILabel!
     
     var magician: Magician!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         title = magician.song
-        coverImageView.image = UIImage(named: magician.song)
-        trackNameLabel.text = magician.description
+        magicianImageView.image = UIImage(named: magician.song)
+        descriptionLabel.text = magician.description
     }
 }
