@@ -16,6 +16,9 @@ class MagicianListViewController: UITableViewController {
         super.viewDidLoad()
         tableView.rowHeight = 80
         navigationItem.leftBarButtonItem = editButtonItem
+    
+        
+        
     }
 
     // MARK: - Table view data source
@@ -29,7 +32,7 @@ class MagicianListViewController: UITableViewController {
         let magician = magicianList[indexPath.row]
         
         content.text = magician.song
-        content.secondaryText = magician.name
+        content.textProperties.color = .white
         content.image = UIImage(named: magician.song)
         content.imageProperties.cornerRadius = tableView.rowHeight / 2
         

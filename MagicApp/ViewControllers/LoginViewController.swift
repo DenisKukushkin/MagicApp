@@ -25,10 +25,7 @@ class LoginViewController: UIViewController {
             } else if let navigationVC = viewController as? UINavigationController {
                 guard let userInfoVC = navigationVC.topViewController as? InformationViewController else { return }
                 userInfoVC.user = user
-            } else if let listVC = viewController as? MagicianListViewController {
-                listVC.user = user
             }
-                        
        }
     }
     
@@ -42,14 +39,14 @@ class LoginViewController: UIViewController {
     
     
     @IBAction func forgotPasswordButtonAction() {
-        showAlert(with: "Oops!", and: "Your password is Password 😎")
+        showAlert(with: "Oops!", and: "Your password is abrakadabra 🪄")
     }
     
     @IBAction func forgotNameButtonAction() {
-        showAlert(with: "Oops!", and: "Your name is User 😁")
+        showAlert(with: "Oops!", and: "Your name is Gudini 🧙‍♂️")
     }
     
-    @IBAction func unwind(segue: UIStoryboardSegue) {
+    @IBAction func unwindToLogin(segue: UIStoryboardSegue) {
         nameTextField.text = ""
         passwordTextField.text = ""
     }

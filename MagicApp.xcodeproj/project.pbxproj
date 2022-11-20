@@ -10,6 +10,7 @@
 		AC646306292A683E009930C6 /* FirstTrickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC646305292A683E009930C6 /* FirstTrickViewController.swift */; };
 		AC646308292A685A009930C6 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC646307292A685A009930C6 /* ResultViewController.swift */; };
 		AC64630A292A6869009930C6 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC646309292A6869009930C6 /* Questions.swift */; };
+		AC64630C292A81CE009930C6 /* MagicTricksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64630B292A81CE009930C6 /* MagicTricksViewController.swift */; };
 		AC976E47292A27360004E93F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E46292A27360004E93F /* AppDelegate.swift */; };
 		AC976E49292A27360004E93F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E48292A27360004E93F /* SceneDelegate.swift */; };
 		AC976E4B292A27360004E93F /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E4A292A27360004E93F /* StartViewController.swift */; };
@@ -30,6 +31,7 @@
 		AC646305292A683E009930C6 /* FirstTrickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTrickViewController.swift; sourceTree = "<group>"; };
 		AC646307292A685A009930C6 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		AC646309292A6869009930C6 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		AC64630B292A81CE009930C6 /* MagicTricksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicTricksViewController.swift; sourceTree = "<group>"; };
 		AC976E43292A27360004E93F /* MagicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC976E46292A27360004E93F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC976E48292A27360004E93F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,12 +95,13 @@
 				AC976E4A292A27360004E93F /* StartViewController.swift */,
 				AC976E5A292A33B00004E93F /* LoginViewController.swift */,
 				AC976E5C292A33FB0004E93F /* WelcomeViewController.swift */,
-				AC976E60292A34E70004E93F /* InformationViewController.swift */,
-				AC976E62292A35200004E93F /* MoreInformationViewController.swift */,
-				AC646305292A683E009930C6 /* FirstTrickViewController.swift */,
-				AC646307292A685A009930C6 /* ResultViewController.swift */,
 				ACF8C3F2292A404A00C28D91 /* MagicianListViewController.swift */,
 				ACF8C3F4292A406300C28D91 /* MagicianDetailsViewController.swift */,
+				AC64630B292A81CE009930C6 /* MagicTricksViewController.swift */,
+				AC646305292A683E009930C6 /* FirstTrickViewController.swift */,
+				AC646307292A685A009930C6 /* ResultViewController.swift */,
+				AC976E60292A34E70004E93F /* InformationViewController.swift */,
+				AC976E62292A35200004E93F /* MoreInformationViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				AC976E61292A34E70004E93F /* InformationViewController.swift in Sources */,
 				AC976E5F292A34A00004E93F /* User.swift in Sources */,
 				AC976E4B292A27360004E93F /* StartViewController.swift in Sources */,
+				AC64630C292A81CE009930C6 /* MagicTricksViewController.swift in Sources */,
 				ACF8C3F5292A406300C28D91 /* MagicianDetailsViewController.swift in Sources */,
 				AC976E63292A35200004E93F /* MoreInformationViewController.swift in Sources */,
 				AC976E47292A27360004E93F /* AppDelegate.swift in Sources */,

@@ -18,7 +18,7 @@ class InformationViewController: UIViewController {
     @IBOutlet var hobbiesLabels: [UILabel]!
     
     var user: User!
-    
+
 
     override func viewDidLoad() {
         super.viewDidLoad()

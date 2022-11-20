@@ -20,7 +20,7 @@ class WelcomeViewController: UIViewController {
             view.backgroundColor = UIColor(patternImage: backgroundImage)
         }
         
-        welcomeLabel.text = "Welcome, \(user.person.name)!"
+        welcomeLabel.text = "Welcome, \(user.login)!"
     }
     
 }
