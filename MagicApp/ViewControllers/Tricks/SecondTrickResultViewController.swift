@@ -9,20 +9,24 @@ import UIKit
 
 class SecondTrickResultViewController: UIViewController {
     
-    var sum: String!
+    var sum: Int!
+
     
     @IBOutlet weak var showResultLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         showResultLabel.isHidden = true
-        print(sum)
-        
     }
-    
     
     @IBAction func showResultButtonPressed() {
         showResultLabel.isHidden = false
+        showResultLabel.text = String(getAnswer(for: sum))
+    }
+    
+    private func getAnswer(for sum: Int) -> String {
+        let answer = "\(sum / 3 - 1), \(sum / 3), \(sum / 3 + 1)"
+        return answer
     }
     
 }

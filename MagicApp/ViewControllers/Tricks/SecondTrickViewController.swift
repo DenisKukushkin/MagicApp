@@ -18,8 +18,7 @@ class SecondTrickViewController: UIViewController {
     @IBOutlet var chooseNumberStackView: UIStackView!
     @IBOutlet var chooseNumberSlider: UISlider!
     @IBOutlet var chooseNumberLabel: UILabel!
-    
-    
+
     private let questions = Question.getSecondTrickQuestions()
     private var questionIndex = 0
 
@@ -27,7 +26,11 @@ class SecondTrickViewController: UIViewController {
         super.viewDidLoad()
         updateUI()
     }
-    
+        
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let secondTrickResultVC = segue.destination as? SecondTrickResultViewController else { return }
+        secondTrickResultVC.sum = Int(sumTextField.text ?? "0")
+    }
     
     @IBAction func chooseNumberSliderAction(_ sender: Any) {
         chooseNumberLabel.text = String(Int(chooseNumberSlider.value))
@@ -63,12 +66,6 @@ extension SecondTrickViewController {
             return
         }
         
-        var sum = sumTextField.text
-        
-        func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-            guard let secondTrickResultVC = segue.destination as? SecondTrickResultViewController else { return }
-            secondTrickResultVC.sum = sum
-        }
         performSegue(withIdentifier: "showResult", sender: nil)
         
     }
