@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="j6F-62-QSu">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
@@ -512,18 +512,34 @@ I'm your magic app 🪄</string>
         <!--Item-->
         <scene sceneID="KhD-Va-fzw">
             <objects>
-                <viewController id="j6F-62-QSu" sceneMemberID="viewController">
+                <viewController id="j6F-62-QSu" customClass="PredictBallViewController" customModule="MagicApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yFc-2r-8Sy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="729"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nXs-u6-00B">
+                                <rect key="frame" x="-113" y="67" width="600" height="600"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="nXs-u6-00B" secondAttribute="height" multiplier="1:1" id="sVt-Pr-yhB"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="DqE-vA-kcn"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nXs-u6-00B" firstAttribute="leading" secondItem="yFc-2r-8Sy" secondAttribute="leading" constant="-113" id="8ZM-eq-LKF"/>
+                            <constraint firstAttribute="trailing" secondItem="nXs-u6-00B" secondAttribute="trailing" constant="-112" id="Qk7-sx-4UQ"/>
+                            <constraint firstItem="nXs-u6-00B" firstAttribute="top" secondItem="DqE-vA-kcn" secondAttribute="top" constant="20" id="wIa-m2-8M0"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="l33-bp-wHo"/>
+                    <connections>
+                        <outlet property="ballImageView" destination="nXs-u6-00B" id="Zvm-CQ-RuA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ao6-f3-EO7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2374" y="755"/>
+            <point key="canvasLocation" x="2373.5999999999999" y="754.43349753694588"/>
         </scene>
         <!--Tricks-->
         <scene sceneID="tHk-h8-sZl">
@@ -741,9 +757,6 @@ Click show if wanna check</string>
         </systemColor>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemCyanColor">
             <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
