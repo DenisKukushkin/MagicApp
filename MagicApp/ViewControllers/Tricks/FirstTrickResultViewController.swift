@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ResultViewController: UIViewController {
+class FirstTrickResultViewController: UIViewController {
     
     
     @IBOutlet weak var showResultLabel: UILabel!

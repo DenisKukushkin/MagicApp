@@ -40,10 +40,5 @@ class InformationViewController: UIViewController {
         profileImage.layer.borderWidth = 0.5
     }
     
-    internal override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let moreInformationVC = segue.destination as? MoreInformationViewController else { return }
-        moreInformationVC.user = user
-    }
-    
 
 }

@@ -16,16 +16,13 @@ class FirstTrickViewController: UIViewController {
     @IBOutlet var chooseNumberStackView: UIStackView!
     @IBOutlet var chooseNumberSlider: UISlider!
     @IBOutlet var chooseNumberLabel: UILabel!
-        
-    //@IBOutlet var reminedButton: UIButton!
     
     
-    private let questions = Question.getQuestions()
+    private let questions = Question.getFirstTrickQuestions()
     private var questionIndex = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //reminedButton.isHidden = true
         updateUI()
     }
     
@@ -54,15 +51,6 @@ extension FirstTrickViewController {
         toDoLabel.text = questions[questionIndex].title
         
         title = "Question № \(questionIndex + 1) of \(questions.count)"
-        
-//        if questionIndex > 0 {
-//            chooseNumberStackView.isHidden = true
-//        }
-        
-//        if questionIndex == questions.count - 1 {
-//            reminedButton.isHidden = false
-//
-//        }
         
     }
     
