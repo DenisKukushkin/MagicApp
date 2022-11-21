@@ -25,6 +25,7 @@
 		AC976E5F292A34A00004E93F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E5E292A34A00004E93F /* User.swift */; };
 		AC976E61292A34E70004E93F /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E60292A34E70004E93F /* InformationViewController.swift */; };
 		AC976E63292A35200004E93F /* MoreInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E62292A35200004E93F /* MoreInformationViewController.swift */; };
+		ACF05F64292BFF14006043B5 /* Predict.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF05F63292BFF14006043B5 /* Predict.swift */; };
 		ACF8C3F3292A404A00C28D91 /* MagicianListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF8C3F2292A404A00C28D91 /* MagicianListViewController.swift */; };
 		ACF8C3F5292A406300C28D91 /* MagicianDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF8C3F4292A406300C28D91 /* MagicianDetailsViewController.swift */; };
 		ACF8C3F7292A4C7A00C28D91 /* Magician.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF8C3F6292A4C7A00C28D91 /* Magician.swift */; };
@@ -51,6 +52,7 @@
 		AC976E5E292A34A00004E93F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		AC976E60292A34E70004E93F /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 		AC976E62292A35200004E93F /* MoreInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInformationViewController.swift; sourceTree = "<group>"; };
+		ACF05F63292BFF14006043B5 /* Predict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predict.swift; sourceTree = "<group>"; };
 		ACF8C3F2292A404A00C28D91 /* MagicianListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicianListViewController.swift; sourceTree = "<group>"; };
 		ACF8C3F4292A406300C28D91 /* MagicianDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicianDetailsViewController.swift; sourceTree = "<group>"; };
 		ACF8C3F6292A4C7A00C28D91 /* Magician.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magician.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				ACF8C3F6292A4C7A00C28D91 /* Magician.swift */,
 				AC646309292A6869009930C6 /* Questions.swift */,
 				AC976E5E292A34A00004E93F /* User.swift */,
+				ACF05F63292BFF14006043B5 /* Predict.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				AC976E5D292A33FB0004E93F /* WelcomeViewController.swift in Sources */,
 				AC976E61292A34E70004E93F /* InformationViewController.swift in Sources */,
 				AC976E5F292A34A00004E93F /* User.swift in Sources */,
+				ACF05F64292BFF14006043B5 /* Predict.swift in Sources */,
 				AC976E4B292A27360004E93F /* StartViewController.swift in Sources */,
 				AC64630C292A81CE009930C6 /* MagicTricksViewController.swift in Sources */,
 				AC85B0C6292BF2120040474B /* PredictBallViewController.swift in Sources */,

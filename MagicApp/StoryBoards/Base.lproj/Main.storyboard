@@ -517,29 +517,56 @@ I'm your magic app 🪄</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="729"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nXs-u6-00B">
-                                <rect key="frame" x="-113" y="67" width="600" height="600"/>
+                            <imageView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nXs-u6-00B">
+                                <rect key="frame" x="-113" y="-23" width="600" height="600"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="nXs-u6-00B" secondAttribute="height" multiplier="1:1" id="sVt-Pr-yhB"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Сlick on the ball to see the prediction" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="urf-wF-cgW">
+                                <rect key="frame" x="16" y="551" width="343" height="116"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="116" id="PcE-7U-v7p"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" systemColor="systemCyanColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U0v-kQ-cFR">
+                                <rect key="frame" x="20" y="127" width="335" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="U0v-kQ-cFR" secondAttribute="height" multiplier="67:60" id="aqs-Ov-s6m"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="ballButtonPressed" destination="j6F-62-QSu" eventType="touchUpInside" id="u8C-NQ-JHj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DqE-vA-kcn"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="nXs-u6-00B" firstAttribute="leading" secondItem="yFc-2r-8Sy" secondAttribute="leading" constant="-113" id="8ZM-eq-LKF"/>
+                            <constraint firstItem="U0v-kQ-cFR" firstAttribute="centerY" secondItem="nXs-u6-00B" secondAttribute="centerY" id="9IP-yM-0N2"/>
+                            <constraint firstItem="nXs-u6-00B" firstAttribute="top" secondItem="yFc-2r-8Sy" secondAttribute="top" constant="-23" id="FVG-mU-V7e"/>
+                            <constraint firstItem="urf-wF-cgW" firstAttribute="leading" secondItem="DqE-vA-kcn" secondAttribute="leading" constant="16" id="KRE-ek-Lls"/>
                             <constraint firstAttribute="trailing" secondItem="nXs-u6-00B" secondAttribute="trailing" constant="-112" id="Qk7-sx-4UQ"/>
-                            <constraint firstItem="nXs-u6-00B" firstAttribute="top" secondItem="DqE-vA-kcn" secondAttribute="top" constant="20" id="wIa-m2-8M0"/>
+                            <constraint firstItem="DqE-vA-kcn" firstAttribute="trailing" secondItem="U0v-kQ-cFR" secondAttribute="trailing" constant="20" id="XgM-Lx-aJE"/>
+                            <constraint firstItem="DqE-vA-kcn" firstAttribute="trailing" secondItem="urf-wF-cgW" secondAttribute="trailing" constant="16" id="dyu-24-KXH"/>
+                            <constraint firstItem="DqE-vA-kcn" firstAttribute="bottom" secondItem="urf-wF-cgW" secondAttribute="bottom" constant="62" id="hHx-Mc-PNV"/>
+                            <constraint firstItem="U0v-kQ-cFR" firstAttribute="leading" secondItem="DqE-vA-kcn" secondAttribute="leading" constant="20" id="jKn-Ok-C7m"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="l33-bp-wHo"/>
                     <connections>
                         <outlet property="ballImageView" destination="nXs-u6-00B" id="Zvm-CQ-RuA"/>
+                        <outlet property="predictLabel" destination="urf-wF-cgW" id="Tae-0y-l3U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ao6-f3-EO7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2373.5999999999999" y="754.43349753694588"/>
+            <point key="canvasLocation" x="2780" y="752.95566502463055"/>
         </scene>
         <!--Tricks-->
         <scene sceneID="tHk-h8-sZl">
