@@ -15,7 +15,6 @@ class PredictBallViewController: UIViewController {
     let predictions = Prediction.getPredictions()
    
     override func viewDidLoad() {
-    
        ballImageView.loadGif(name: "ball")
     }
     

@@ -26,7 +26,7 @@ class MainTabBarController: UITabBarController {
     
         private lazy var gifImageView: UIImageView = {
             let gifImageView = UIImageView()
-            gifImageView.loadGif(name: "orangeBall")
+            gifImageView.loadGif(name: "roundBall")
             gifImageView.tintColor = .white
             
             gifImageView.translatesAutoresizingMaskIntoConstraints = false
@@ -51,8 +51,8 @@ class MainTabBarController: UITabBarController {
         // 3
         NSLayoutConstraint.activate([
             // 3.1
-            gifImageView.heightAnchor.constraint(equalToConstant: middleButtonDiameter + 40),
-            gifImageView.widthAnchor.constraint(equalToConstant: middleButtonDiameter + 40),
+            gifImageView.heightAnchor.constraint(equalToConstant: middleButtonDiameter + 5),
+            gifImageView.widthAnchor.constraint(equalToConstant: middleButtonDiameter + 5),
             // 3.2
             gifImageView.centerXAnchor.constraint(equalTo: middleButton.centerXAnchor),
             gifImageView.centerYAnchor.constraint(equalTo: middleButton.centerYAnchor)

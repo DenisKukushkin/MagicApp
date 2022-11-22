@@ -13,7 +13,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet var passwordTextField: UITextField!
     
-    private let user = User.getUser()
+    private let user = MagicUser.getUser()
     
     internal override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let tabBarController = segue.destination as? UITabBarController else { return }
@@ -22,9 +22,6 @@ class LoginViewController: UIViewController {
          for viewController in viewControllers {
             if let welcomeVC = viewController as? WelcomeViewController {
                 welcomeVC.user = user
-            } else if let navigationVC = viewController as? UINavigationController {
-                guard let userInfoVC = navigationVC.topViewController as? InformationViewController else { return }
-                userInfoVC.user = user
             }
        }
     }
@@ -32,18 +29,18 @@ class LoginViewController: UIViewController {
     
     @IBAction func logInButtonAction() {
         if nameTextField.text != user.login || passwordTextField.text != user.password {
-            showAlert(with: "Invalid login ore password", and: "Please enter correct login and password")
+            showAlert(with: "Invalid magic login ore password", and: "Please enter correct magic login and password")
             passwordTextField.text = ""
         }
     }
     
     
     @IBAction func forgotPasswordButtonAction() {
-        showAlert(with: "Oops!", and: "Your password is abrakadabra 🪄")
+        showAlert(with: "Oops!", and: "Your magic password is abrakadabra 🪄")
     }
     
     @IBAction func forgotNameButtonAction() {
-        showAlert(with: "Oops!", and: "Your name is Gudini 🧙‍♂️")
+        showAlert(with: "Oops!", and: "Your magic name is Gudini 🧙‍♂️")
     }
     
     @IBAction func unwindToLogin(segue: UIStoryboardSegue) {

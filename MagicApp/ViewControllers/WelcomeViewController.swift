@@ -11,15 +11,10 @@ class WelcomeViewController: UIViewController {
    
     @IBOutlet var welcomeLabel: UILabel!
     
-    var user: User!
+    var user: MagicUser!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        if let backgroundImage = UIImage(named: "backgroundImage") {
-            view.backgroundColor = UIColor(patternImage: backgroundImage)
-        }
-        
         welcomeLabel.text = "Welcome, \(user.login)!"
     }
     

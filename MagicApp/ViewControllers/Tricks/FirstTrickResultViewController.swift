@@ -9,15 +9,7 @@ import UIKit
 
 class FirstTrickResultViewController: UIViewController {
     
-    
     @IBOutlet weak var showResultLabel: UILabel!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        showResultLabel.isHidden = true
-        
-    }
-    
     
     @IBAction func showResultButtonPressed() {
         showResultLabel.isHidden = false

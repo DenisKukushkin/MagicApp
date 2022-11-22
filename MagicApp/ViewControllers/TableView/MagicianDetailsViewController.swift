@@ -16,8 +16,8 @@ class MagicianDetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = magician.song
-        magicianImageView.image = UIImage(named: magician.song)
+        title = magician.name
+        magicianImageView.image = UIImage(named: magician.name)
         descriptionLabel.text = magician.description
     }
 }

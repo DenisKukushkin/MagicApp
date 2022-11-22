@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  Prediction.swift
 //  MagicApp
 //
 //  Created by Denis Kukushkin on 21.11.2022.

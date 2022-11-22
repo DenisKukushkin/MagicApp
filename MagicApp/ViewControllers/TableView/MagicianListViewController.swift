@@ -9,7 +9,7 @@ import UIKit
 
 class MagicianListViewController: UITableViewController {
     
-    var user: User!
+    var user: MagicUser!
     private var magicianList = Magician.getMagicianList()
 
     override func viewDidLoad() {
@@ -27,13 +27,13 @@ class MagicianListViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "trackID", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         var content = cell.defaultContentConfiguration()
         let magician = magicianList[indexPath.row]
         
-        content.text = magician.song
+        content.text = magician.name
         content.textProperties.color = .white
-        content.image = UIImage(named: magician.song)
+        content.image = UIImage(named: magician.name)
         content.imageProperties.cornerRadius = tableView.rowHeight / 2
         
         cell.contentConfiguration = content

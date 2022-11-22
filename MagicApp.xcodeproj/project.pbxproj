@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC3F1E22292D416E0051EF92 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F1E21292D416E0051EF92 /* MainTabBarController.swift */; };
-		AC3F1E24292D4B240051EF92 /* orangeBall.gif in Resources */ = {isa = PBXBuildFile; fileRef = AC3F1E23292D4B240051EF92 /* orangeBall.gif */; };
+		AC3F1E26292D4F650051EF92 /* roundBall.gif in Resources */ = {isa = PBXBuildFile; fileRef = AC3F1E25292D4F650051EF92 /* roundBall.gif */; };
 		AC646306292A683E009930C6 /* FirstTrickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC646305292A683E009930C6 /* FirstTrickViewController.swift */; };
 		AC646308292A685A009930C6 /* FirstTrickResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC646307292A685A009930C6 /* FirstTrickResultViewController.swift */; };
 		AC64630A292A6869009930C6 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC646309292A6869009930C6 /* Questions.swift */; };
@@ -18,16 +18,14 @@
 		AC85B0C8292BF4380040474B /* ball.gif in Resources */ = {isa = PBXBuildFile; fileRef = AC85B0C7292BF4380040474B /* ball.gif */; };
 		AC976E47292A27360004E93F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E46292A27360004E93F /* AppDelegate.swift */; };
 		AC976E49292A27360004E93F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E48292A27360004E93F /* SceneDelegate.swift */; };
-		AC976E4B292A27360004E93F /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E4A292A27360004E93F /* StartViewController.swift */; };
 		AC976E4E292A27360004E93F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC976E4C292A27360004E93F /* Main.storyboard */; };
 		AC976E50292A27380004E93F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC976E4F292A27380004E93F /* Assets.xcassets */; };
 		AC976E53292A27380004E93F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC976E51292A27380004E93F /* LaunchScreen.storyboard */; };
 		AC976E5B292A33B00004E93F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E5A292A33B00004E93F /* LoginViewController.swift */; };
 		AC976E5D292A33FB0004E93F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E5C292A33FB0004E93F /* WelcomeViewController.swift */; };
-		AC976E5F292A34A00004E93F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E5E292A34A00004E93F /* User.swift */; };
-		AC976E61292A34E70004E93F /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E60292A34E70004E93F /* InformationViewController.swift */; };
-		ACF05F64292BFF14006043B5 /* Predict.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF05F63292BFF14006043B5 /* Predict.swift */; };
-		ACF05F66292C07D9006043B5 /* PredictBallTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF05F65292C07D9006043B5 /* PredictBallTabBar.swift */; };
+		AC976E5F292A34A00004E93F /* MagicUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E5E292A34A00004E93F /* MagicUser.swift */; };
+		AC976E61292A34E70004E93F /* DeveloperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC976E60292A34E70004E93F /* DeveloperViewController.swift */; };
+		ACF05F64292BFF14006043B5 /* Prediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF05F63292BFF14006043B5 /* Prediction.swift */; };
 		ACF05F68292C131A006043B5 /* SecondTrickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF05F67292C131A006043B5 /* SecondTrickViewController.swift */; };
 		ACF05F6A292C1331006043B5 /* SecondTrickResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF05F69292C1331006043B5 /* SecondTrickResultViewController.swift */; };
 		ACF8C3F3292A404A00C28D91 /* MagicianListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF8C3F2292A404A00C28D91 /* MagicianListViewController.swift */; };
@@ -37,7 +35,7 @@
 
 /* Begin PBXFileReference section */
 		AC3F1E21292D416E0051EF92 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		AC3F1E23292D4B240051EF92 /* orangeBall.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = orangeBall.gif; path = "../../../../../David'sApp/David'sApp/orangeBall.gif"; sourceTree = "<group>"; };
+		AC3F1E25292D4F650051EF92 /* roundBall.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = roundBall.gif; path = ../../../../../../../roundBall.gif; sourceTree = "<group>"; };
 		AC646305292A683E009930C6 /* FirstTrickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTrickViewController.swift; sourceTree = "<group>"; };
 		AC646307292A685A009930C6 /* FirstTrickResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTrickResultViewController.swift; sourceTree = "<group>"; };
 		AC646309292A6869009930C6 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
@@ -48,17 +46,15 @@
 		AC976E43292A27360004E93F /* MagicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC976E46292A27360004E93F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC976E48292A27360004E93F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC976E4A292A27360004E93F /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		AC976E4D292A27360004E93F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC976E4F292A27380004E93F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC976E52292A27380004E93F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC976E54292A27380004E93F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC976E5A292A33B00004E93F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AC976E5C292A33FB0004E93F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		AC976E5E292A34A00004E93F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		AC976E60292A34E70004E93F /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
-		ACF05F63292BFF14006043B5 /* Predict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predict.swift; sourceTree = "<group>"; };
-		ACF05F65292C07D9006043B5 /* PredictBallTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictBallTabBar.swift; sourceTree = "<group>"; };
+		AC976E5E292A34A00004E93F /* MagicUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicUser.swift; sourceTree = "<group>"; };
+		AC976E60292A34E70004E93F /* DeveloperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperViewController.swift; sourceTree = "<group>"; };
+		ACF05F63292BFF14006043B5 /* Prediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prediction.swift; sourceTree = "<group>"; };
 		ACF05F67292C131A006043B5 /* SecondTrickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTrickViewController.swift; sourceTree = "<group>"; };
 		ACF05F69292C1331006043B5 /* SecondTrickResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTrickResultViewController.swift; sourceTree = "<group>"; };
 		ACF8C3F2292A404A00C28D91 /* MagicianListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicianListViewController.swift; sourceTree = "<group>"; };
@@ -109,13 +105,12 @@
 			isa = PBXGroup;
 			children = (
 				AC3F1E21292D416E0051EF92 /* MainTabBarController.swift */,
-				AC976E4A292A27360004E93F /* StartViewController.swift */,
 				AC976E5A292A33B00004E93F /* LoginViewController.swift */,
 				AC976E5C292A33FB0004E93F /* WelcomeViewController.swift */,
 				ACF05F6B292C16A5006043B5 /* TableView */,
 				ACF05F6C292C170E006043B5 /* PredictBall */,
 				ACF05F6D292C1731006043B5 /* Tricks */,
-				AC976E60292A34E70004E93F /* InformationViewController.swift */,
+				AC976E60292A34E70004E93F /* DeveloperViewController.swift */,
 				AC85B0C1292BF1270040474B /* Gif.swift */,
 			);
 			path = ViewControllers;
@@ -126,8 +121,8 @@
 			children = (
 				ACF8C3F6292A4C7A00C28D91 /* Magician.swift */,
 				AC646309292A6869009930C6 /* Questions.swift */,
-				AC976E5E292A34A00004E93F /* User.swift */,
-				ACF05F63292BFF14006043B5 /* Predict.swift */,
+				AC976E5E292A34A00004E93F /* MagicUser.swift */,
+				ACF05F63292BFF14006043B5 /* Prediction.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -136,8 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				AC976E4F292A27380004E93F /* Assets.xcassets */,
+				AC3F1E25292D4F650051EF92 /* roundBall.gif */,
 				AC85B0C7292BF4380040474B /* ball.gif */,
-				AC3F1E23292D4B240051EF92 /* orangeBall.gif */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -174,7 +169,6 @@
 			isa = PBXGroup;
 			children = (
 				AC85B0C5292BF2120040474B /* PredictBallViewController.swift */,
-				ACF05F65292C07D9006043B5 /* PredictBallTabBar.swift */,
 			);
 			path = PredictBall;
 			sourceTree = "<group>";
@@ -249,10 +243,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC3F1E24292D4B240051EF92 /* orangeBall.gif in Resources */,
 				AC976E53292A27380004E93F /* LaunchScreen.storyboard in Resources */,
 				AC976E50292A27380004E93F /* Assets.xcassets in Resources */,
 				AC85B0C8292BF4380040474B /* ball.gif in Resources */,
+				AC3F1E26292D4F650051EF92 /* roundBall.gif in Resources */,
 				AC976E4E292A27360004E93F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,16 +260,14 @@
 			files = (
 				AC646308292A685A009930C6 /* FirstTrickResultViewController.swift in Sources */,
 				AC976E5B292A33B00004E93F /* LoginViewController.swift in Sources */,
-				ACF05F66292C07D9006043B5 /* PredictBallTabBar.swift in Sources */,
 				ACF05F6A292C1331006043B5 /* SecondTrickResultViewController.swift in Sources */,
 				ACF8C3F3292A404A00C28D91 /* MagicianListViewController.swift in Sources */,
 				AC64630A292A6869009930C6 /* Questions.swift in Sources */,
 				AC976E5D292A33FB0004E93F /* WelcomeViewController.swift in Sources */,
-				AC976E61292A34E70004E93F /* InformationViewController.swift in Sources */,
-				AC976E5F292A34A00004E93F /* User.swift in Sources */,
-				ACF05F64292BFF14006043B5 /* Predict.swift in Sources */,
+				AC976E61292A34E70004E93F /* DeveloperViewController.swift in Sources */,
+				AC976E5F292A34A00004E93F /* MagicUser.swift in Sources */,
+				ACF05F64292BFF14006043B5 /* Prediction.swift in Sources */,
 				ACF05F68292C131A006043B5 /* SecondTrickViewController.swift in Sources */,
-				AC976E4B292A27360004E93F /* StartViewController.swift in Sources */,
 				AC64630C292A81CE009930C6 /* MagicTricksViewController.swift in Sources */,
 				AC85B0C6292BF2120040474B /* PredictBallViewController.swift in Sources */,
 				ACF8C3F5292A406300C28D91 /* MagicianDetailsViewController.swift in Sources */,

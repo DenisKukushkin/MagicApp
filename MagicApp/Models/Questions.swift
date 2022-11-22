@@ -21,7 +21,7 @@ struct Question {
     static func getSecondTrickQuestions() -> [Question] {
         [
             Question(title: "Please think of three consecutive numbers, for example: 4, 5, 6 or 16, 17, 18"),
-            Question(title: "Now please calculate the sum of your numbers and input it below")
+            Question(title: "Now please calculate the sum of your numbers and input it above")
         ]
     }
  

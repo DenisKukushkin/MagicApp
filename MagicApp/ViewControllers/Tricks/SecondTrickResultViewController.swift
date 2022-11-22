@@ -11,21 +11,17 @@ class SecondTrickResultViewController: UIViewController {
     
     var sum: Int!
 
-    
+    @IBOutlet weak var theResultIsLabel: UILabel!
     @IBOutlet weak var showResultLabel: UILabel!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        showResultLabel.isHidden = true
-    }
-    
     @IBAction func showResultButtonPressed() {
+        theResultIsLabel.isHidden = false
         showResultLabel.isHidden = false
         showResultLabel.text = String(getAnswer(for: sum))
     }
     
     private func getAnswer(for sum: Int) -> String {
-        let answer = "\(sum / 3 - 1), \(sum / 3), \(sum / 3 + 1)"
+        let answer = "\(sum / 3 - 1), \(sum / 3), \(sum / 3 + 1), 🪄"
         return answer
     }
     

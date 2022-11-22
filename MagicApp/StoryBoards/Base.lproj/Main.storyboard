@@ -163,17 +163,17 @@ I'm your magic app 🪄</string>
                                     <segue destination="5a8-nu-eFE" kind="unwind" unwindAction="unwindToLoginWithSegue:" id="Dz4-SF-zRW"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bBe-0o-PP1">
-                                <rect key="frame" x="61.333333333333329" y="164" width="252.66666666666669" height="137.33333333333337"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="bBe-0o-PP1">
+                                <rect key="frame" x="61.333333333333329" y="164" width="252.66666666666669" height="159.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome, User!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nQN-SM-TEi">
                                         <rect key="frame" x="0.0" y="0.0" width="252.66666666666666" height="42"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
-                                        <color key="textColor" systemColor="systemIndigoColor"/>
+                                        <color key="textColor" systemColor="systemCyanColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🤹‍♀️" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VtC-Mz-qFe">
-                                        <rect key="frame" x="86.666666666666657" y="49.999999999999993" width="79" height="87.333333333333314"/>
+                                        <rect key="frame" x="86.666666666666657" y="72" width="79" height="87.333333333333314"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="73"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -190,7 +190,7 @@ I'm your magic app 🪄</string>
                             <constraint firstItem="hgj-bl-hql" firstAttribute="centerX" secondItem="XIK-S0-GJM" secondAttribute="centerX" id="hyf-KB-6lu"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Welcome" image="person.circle" catalog="system" id="led-K4-Ve2"/>
+                    <tabBarItem key="tabBarItem" title="Welcome" image="person" catalog="system" id="led-K4-Ve2"/>
                     <navigationItem key="navigationItem" id="1eG-Qc-pX0"/>
                     <connections>
                         <outlet property="welcomeLabel" destination="nQN-SM-TEi" id="nuc-CY-v1w"/>
@@ -217,74 +217,12 @@ I'm your magic app 🪄</string>
                         <segue destination="mdW-4h-ekR" kind="relationship" relationship="viewControllers" id="Eep-al-9DI"/>
                         <segue destination="j6F-62-QSu" kind="relationship" relationship="viewControllers" id="Ubc-bM-tYd"/>
                         <segue destination="Npj-4f-jO3" kind="relationship" relationship="viewControllers" id="9NO-re-4w7"/>
-                        <segue destination="jcX-dA-4AK" kind="relationship" relationship="viewControllers" id="T7Q-9h-qAm"/>
+                        <segue destination="zR0-qM-619" kind="relationship" relationship="viewControllers" id="FDm-tX-HOt"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i9m-dC-5BM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1431" y="-5"/>
-        </scene>
-        <!--User-->
-        <scene sceneID="905-Se-fj8">
-            <objects>
-                <viewController id="s4k-PR-gfi" customClass="InformationViewController" customModule="MagicApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="YLU-O5-wh7">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="729"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5Uc-Ar-BlN">
-                                <rect key="frame" x="0.0" y="91" width="375" height="165"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="165" id="2ST-SF-vfN"/>
-                                </constraints>
-                            </imageView>
-                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YE4-CR-EK4">
-                                <rect key="frame" x="105" y="171" width="165" height="165"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="YE4-CR-EK4" secondAttribute="height" multiplier="1:1" id="dAT-RM-rDV"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="VA0-Op-68V"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="YE4-CR-EK4" firstAttribute="top" secondItem="VA0-Op-68V" secondAttribute="top" constant="80" id="3an-AH-hYc"/>
-                            <constraint firstItem="5Uc-Ar-BlN" firstAttribute="top" secondItem="VA0-Op-68V" secondAttribute="top" id="6Zf-I2-LYw"/>
-                            <constraint firstItem="YE4-CR-EK4" firstAttribute="centerX" secondItem="YLU-O5-wh7" secondAttribute="centerX" id="AVb-Nu-6LT"/>
-                            <constraint firstItem="5Uc-Ar-BlN" firstAttribute="leading" secondItem="VA0-Op-68V" secondAttribute="leading" id="Q6r-xc-Izr"/>
-                            <constraint firstItem="YE4-CR-EK4" firstAttribute="width" secondItem="YLU-O5-wh7" secondAttribute="width" multiplier="0.44" id="ZHR-zI-PIy"/>
-                            <constraint firstItem="5Uc-Ar-BlN" firstAttribute="width" secondItem="YLU-O5-wh7" secondAttribute="width" id="cZt-N3-1E8"/>
-                            <constraint firstItem="5Uc-Ar-BlN" firstAttribute="trailing" secondItem="VA0-Op-68V" secondAttribute="trailing" id="jhv-fN-Ydg"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="User" id="UIp-yV-V16"/>
-                    <connections>
-                        <outlet property="backgroundImage" destination="5Uc-Ar-BlN" id="kaa-Dz-Mgu"/>
-                        <outlet property="profileImage" destination="YE4-CR-EK4" id="D6O-tW-4Gy"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5Yd-TP-Br4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3310" y="1913"/>
-        </scene>
-        <!--User-->
-        <scene sceneID="5tc-cc-60L">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jcX-dA-4AK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="User" image="person.circle.fill" catalog="system" id="u8W-GM-eas"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1iJ-KY-9GG">
-                        <rect key="frame" x="0.0" y="47" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="s4k-PR-gfi" kind="relationship" relationship="rootViewController" id="sIH-hQ-qft"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="phJ-GK-Hzr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2398" y="1913"/>
         </scene>
         <!--Magicians-->
         <scene sceneID="5Wt-5v-me8">
@@ -298,7 +236,7 @@ I'm your magic app 🪄</string>
                         <color key="sectionIndexBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" indentationWidth="10" reuseIdentifier="trackID" textLabel="6SP-PE-lSs" style="IBUITableViewCellStyleDefault" id="43e-lR-JaF">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" indentationWidth="10" reuseIdentifier="cell" textLabel="6SP-PE-lSs" style="IBUITableViewCellStyleDefault" id="43e-lR-JaF">
                                 <rect key="frame" x="0.0" y="50" width="375" height="43.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="43e-lR-JaF" id="NSW-Ao-x6Q">
@@ -381,7 +319,7 @@ I'm your magic app 🪄</string>
         <scene sceneID="9uj-zg-JlA">
             <objects>
                 <navigationController id="mdW-4h-ekR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Magicians" id="WpR-gr-w0K"/>
+                    <tabBarItem key="tabBarItem" title="Magicians" image="theatermasks" catalog="system" id="WpR-gr-w0K"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" largeTitles="YES" id="jfW-EO-cy7">
                         <rect key="frame" x="0.0" y="47" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -453,7 +391,7 @@ I'm your magic app 🪄</string>
                             <constraint firstItem="U0v-kQ-cFR" firstAttribute="leading" secondItem="DqE-vA-kcn" secondAttribute="leading" constant="20" id="jKn-Ok-C7m"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="MagicBall" id="l33-bp-wHo" customClass="PredictBallTabBarItem" customModule="MagicApp" customModuleProvider="target"/>
+                    <tabBarItem key="tabBarItem" title="MagicBall" id="l33-bp-wHo"/>
                     <connections>
                         <outlet property="ballImageView" destination="nXs-u6-00B" id="Zvm-CQ-RuA"/>
                         <outlet property="predictLabel" destination="urf-wF-cgW" id="Tae-0y-l3U"/>
@@ -536,7 +474,7 @@ READY?</string>
                             <constraint firstItem="SVY-mc-9Yb" firstAttribute="centerX" secondItem="Yr1-Az-a0O" secondAttribute="centerX" id="uFe-sc-wio"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Tricks" id="O7k-uF-Blw"/>
+                    <tabBarItem key="tabBarItem" title="Tricks" image="lasso.and.sparkles" catalog="system" id="O7k-uF-Blw"/>
                     <connections>
                         <outlet property="firstTrickButton" destination="0Te-fW-EQL" id="7vV-Mm-Slc"/>
                         <outlet property="goButton" destination="SVY-mc-9Yb" id="RLe-Aw-P5q"/>
@@ -665,7 +603,7 @@ Click show if wanna check</string>
                                     <action selector="showResultButtonPressed" destination="5UB-vG-AEZ" eventType="touchUpInside" id="TrA-iK-NRP"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="wKQ-gb-yMg">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="wKQ-gb-yMg">
                                 <rect key="frame" x="16" y="281.66666666666669" width="343" height="83.666666666666686"/>
                                 <string key="text">The result is 🪄
 4️⃣</string>
@@ -695,7 +633,7 @@ Click show if wanna check</string>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="showResultLabel" destination="wKQ-gb-yMg" id="oJR-9N-UCt"/>
+                        <outlet property="showResultLabel" destination="wKQ-gb-yMg" id="lLb-VJ-CVP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="66N-ve-e14" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -745,8 +683,8 @@ Click show if wanna check</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5zt-wj-Jax">
-                                <rect key="frame" x="137.66666666666666" y="461" width="100" height="34"/>
+                            <textField hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5zt-wj-Jax">
+                                <rect key="frame" x="137.66666666666666" y="156" width="100" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="iUC-Aa-Iy7"/>
                                 </constraints>
@@ -757,6 +695,7 @@ Click show if wanna check</string>
                         <viewLayoutGuide key="safeArea" id="EIV-yr-4o8"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="LFD-ZR-NGp" firstAttribute="top" secondItem="5zt-wj-Jax" secondAttribute="bottom" constant="53" id="3Gs-S1-Z3O"/>
                             <constraint firstItem="5zt-wj-Jax" firstAttribute="centerX" secondItem="0Hd-Lk-XL7" secondAttribute="centerX" id="6aI-Ow-Npu"/>
                             <constraint firstItem="OSS-zg-Qri" firstAttribute="top" secondItem="EIV-yr-4o8" secondAttribute="top" constant="21" id="Fgy-3w-RGJ"/>
                             <constraint firstItem="EIV-yr-4o8" firstAttribute="bottom" secondItem="R2s-5g-gNW" secondAttribute="bottom" constant="20" id="JIG-e0-JGP"/>
@@ -767,7 +706,6 @@ Click show if wanna check</string>
                             <constraint firstItem="OSS-zg-Qri" firstAttribute="leading" secondItem="EIV-yr-4o8" secondAttribute="leading" id="hV1-dS-UUb"/>
                             <constraint firstItem="LFD-ZR-NGp" firstAttribute="leading" secondItem="EIV-yr-4o8" secondAttribute="leading" constant="16" id="hZy-W5-jUP"/>
                             <constraint firstItem="R2s-5g-gNW" firstAttribute="centerX" secondItem="0Hd-Lk-XL7" secondAttribute="centerX" id="ozs-qt-aFw"/>
-                            <constraint firstItem="5zt-wj-Jax" firstAttribute="top" secondItem="LFD-ZR-NGp" secondAttribute="bottom" constant="57" id="vY6-TG-F2M"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="trick2" id="39c-ui-7nV"/>
@@ -832,10 +770,14 @@ Click show if wanna check</string>
                                     <action selector="showResultButtonPressed" destination="jHj-S1-Y6X" eventType="touchUpInside" id="0qT-da-Awa"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999998807907104" translatesAutoresizingMaskIntoConstraints="NO" id="mDh-a9-Qi7">
-                                <rect key="frame" x="16" y="281.66666666666669" width="343" height="83.666666666666686"/>
-                                <string key="text">The result is 🪄
-1️⃣, 2️⃣, 3️⃣</string>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1️⃣, 2️⃣, 3️⃣" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999998807907104" translatesAutoresizingMaskIntoConstraints="NO" id="mDh-a9-Qi7">
+                                <rect key="frame" x="16" y="302.66666666666669" width="343" height="42"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="35"/>
+                                <color key="textColor" systemColor="systemCyanColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The result is" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999998807907104" translatesAutoresizingMaskIntoConstraints="NO" id="agT-TW-Cvf">
+                                <rect key="frame" x="16" y="246.66666666666669" width="343" height="42"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="35"/>
                                 <color key="textColor" systemColor="systemCyanColor"/>
                                 <nil key="highlightedColor"/>
@@ -846,12 +788,15 @@ Click show if wanna check</string>
                         <constraints>
                             <constraint firstItem="k5S-5b-YvV" firstAttribute="trailing" secondItem="tUp-TU-kIp" secondAttribute="trailing" constant="30" id="55M-9O-wcW"/>
                             <constraint firstItem="tUp-TU-kIp" firstAttribute="leading" secondItem="k5S-5b-YvV" secondAttribute="leading" constant="30" id="7Xj-lI-IHL"/>
+                            <constraint firstItem="k5S-5b-YvV" firstAttribute="trailing" secondItem="agT-TW-Cvf" secondAttribute="trailing" constant="16" id="C0H-kR-O7d"/>
                             <constraint firstItem="rJz-uT-hCS" firstAttribute="centerX" secondItem="O7Q-Xy-8nU" secondAttribute="centerX" id="ESG-Oo-Ek9"/>
                             <constraint firstItem="k5S-5b-YvV" firstAttribute="trailing" secondItem="mDh-a9-Qi7" secondAttribute="trailing" constant="16" id="F01-4l-Njq"/>
                             <constraint firstItem="mDh-a9-Qi7" firstAttribute="leading" secondItem="k5S-5b-YvV" secondAttribute="leading" constant="16" id="Hkb-4d-AXE"/>
                             <constraint firstItem="tUp-TU-kIp" firstAttribute="top" secondItem="k5S-5b-YvV" secondAttribute="top" constant="22" id="UFn-t1-K9H"/>
+                            <constraint firstItem="agT-TW-Cvf" firstAttribute="leading" secondItem="k5S-5b-YvV" secondAttribute="leading" constant="16" id="YF3-ak-UwY"/>
                             <constraint firstItem="mDh-a9-Qi7" firstAttribute="centerY" secondItem="O7Q-Xy-8nU" secondAttribute="centerY" id="geV-49-Zfs"/>
                             <constraint firstItem="k5S-5b-YvV" firstAttribute="bottom" secondItem="rJz-uT-hCS" secondAttribute="bottom" constant="20" id="kNk-Q0-MFg"/>
+                            <constraint firstItem="mDh-a9-Qi7" firstAttribute="top" secondItem="agT-TW-Cvf" secondAttribute="bottom" constant="14" id="xDO-7d-WS9"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qCR-nt-4ka">
@@ -863,6 +808,7 @@ Click show if wanna check</string>
                     </navigationItem>
                     <connections>
                         <outlet property="showResultLabel" destination="mDh-a9-Qi7" id="DvV-fc-xce"/>
+                        <outlet property="theResultIsLabel" destination="agT-TW-Cvf" id="e9V-Mj-qUV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a7x-RH-Dmd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -870,10 +816,63 @@ Click show if wanna check</string>
             </objects>
             <point key="canvasLocation" x="4977" y="1111"/>
         </scene>
+        <!--User-->
+        <scene sceneID="b6C-0A-ZCl">
+            <objects>
+                <viewController id="zR0-qM-619" customClass="DeveloperViewController" customModule="MagicApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g6A-24-JgP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="729"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zkd-Of-SzK">
+                                <rect key="frame" x="82.666666666666686" y="259.66666666666669" width="210" height="210"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zkd-Of-SzK" secondAttribute="height" multiplier="1:1" id="Ofa-tb-UGP"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Magic Developer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Foz-jo-aFb">
+                                <rect key="frame" x="91.666666666666671" y="67" width="191.66666666666663" height="32.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="27"/>
+                                <color key="textColor" systemColor="systemCyanColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Denis Kukushkin" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="TUe-Es-Mhq">
+                                <rect key="frame" x="110.33333333333333" y="504.99999999999994" width="154.33333333333337" height="26.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
+                                <color key="textColor" systemColor="systemCyanColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ELR-AF-wY2"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TUe-Es-Mhq" firstAttribute="top" secondItem="zkd-Of-SzK" secondAttribute="bottom" constant="35.333333333333314" id="DHC-wx-qTB"/>
+                            <constraint firstItem="Foz-jo-aFb" firstAttribute="top" secondItem="ELR-AF-wY2" secondAttribute="top" constant="20" id="QcX-b3-EuC"/>
+                            <constraint firstItem="zkd-Of-SzK" firstAttribute="width" secondItem="g6A-24-JgP" secondAttribute="width" multiplier="0.56" id="R13-8i-Div"/>
+                            <constraint firstItem="Foz-jo-aFb" firstAttribute="centerX" secondItem="g6A-24-JgP" secondAttribute="centerX" id="cn4-J4-3Rq"/>
+                            <constraint firstItem="TUe-Es-Mhq" firstAttribute="centerX" secondItem="g6A-24-JgP" secondAttribute="centerX" id="gUn-f8-6T5"/>
+                            <constraint firstItem="zkd-Of-SzK" firstAttribute="centerX" secondItem="g6A-24-JgP" secondAttribute="centerX" id="l67-sg-06R"/>
+                            <constraint firstItem="zkd-Of-SzK" firstAttribute="centerY" secondItem="g6A-24-JgP" secondAttribute="centerY" id="wjG-Nm-ow2"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Developer" image="laptopcomputer" catalog="system" id="HJ0-OH-Kim"/>
+                    <navigationItem key="navigationItem" title="User" id="ztR-4y-MHe">
+                        <barButtonItem key="rightBarButtonItem" title="a bit more" id="e2c-1W-Y4x"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="profileImage" destination="zkd-Of-SzK" id="Tdp-Bf-gy6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4zt-d5-DI1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3310" y="1903"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="person.circle" catalog="system" width="128" height="123"/>
-        <image name="person.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="laptopcomputer" catalog="system" width="128" height="71"/>
+        <image name="lasso.and.sparkles" catalog="system" width="115" height="128"/>
+        <image name="person" catalog="system" width="128" height="121"/>
+        <image name="theatermasks" catalog="system" width="128" height="87"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
@@ -882,9 +881,6 @@ Click show if wanna check</string>
         </systemColor>
         <systemColor name="systemCyanColor">
             <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

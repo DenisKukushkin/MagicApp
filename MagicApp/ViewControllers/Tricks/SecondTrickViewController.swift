@@ -10,15 +10,9 @@ import UIKit
 class SecondTrickViewController: UIViewController {
 
     @IBOutlet var progressView: UIProgressView!
-    
     @IBOutlet var toDoLabel: UILabel!
-    
     @IBOutlet weak var sumTextField: UITextField!
     
-    @IBOutlet var chooseNumberStackView: UIStackView!
-    @IBOutlet var chooseNumberSlider: UISlider!
-    @IBOutlet var chooseNumberLabel: UILabel!
-
     private let questions = Question.getSecondTrickQuestions()
     private var questionIndex = 0
 
@@ -32,19 +26,8 @@ class SecondTrickViewController: UIViewController {
         secondTrickResultVC.sum = Int(sumTextField.text ?? "0")
     }
     
-    @IBAction func chooseNumberSliderAction(_ sender: Any) {
-        chooseNumberLabel.text = String(Int(chooseNumberSlider.value))
-    }
-    
     @IBAction func nextButtonAction(_ sender: Any) {
         nextQuestion()
-    }
-    
-    
-
-    @IBAction func remindButtonAction(_ sender: Any) {
-        showAlert(with: "Kind reminder 🙃", and: "Your number is \(Int(chooseNumberSlider.value))")
-        
     }
     
 }
@@ -53,14 +36,17 @@ extension SecondTrickViewController {
     private func updateUI() {
         
         toDoLabel.text = questions[questionIndex].title
-        
         title = "Question № \(questionIndex + 1) of \(questions.count)"
+        
+        if questionIndex == 1 {
+            sumTextField.isHidden = false
+        }
         
     }
     
     private func nextQuestion() {
         questionIndex += 1
-
+        
         if questionIndex < questions.count {
             updateUI()
             return
