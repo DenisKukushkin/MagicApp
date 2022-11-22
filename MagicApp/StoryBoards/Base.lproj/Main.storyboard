@@ -201,10 +201,10 @@ I'm your magic app 🪄</string>
             </objects>
             <point key="canvasLocation" x="2398" y="-1473"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar Controller-->
         <scene sceneID="nvD-CV-gzE">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="z0d-NO-FkB" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="z0d-NO-FkB" customClass="MainTabBarController" customModule="MagicApp" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="q3d-EH-5PQ">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -492,8 +492,11 @@ READY?</string>
                                 <buttonConfiguration key="configuration" style="tinted" title="GO!">
                                     <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="goButtonPressed" destination="Npj-4f-jO3" eventType="touchUpInside" id="I1o-1t-SBW"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Te-fW-EQL">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Te-fW-EQL">
                                 <rect key="frame" x="16" y="663" width="143" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="QJ1-GO-U5O"/>
@@ -502,10 +505,10 @@ READY?</string>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="trick 1️⃣"/>
                                 <connections>
-                                    <segue destination="dVl-6K-M2k" kind="presentation" id="0GF-5S-80D"/>
+                                    <segue destination="dVl-6K-M2k" kind="presentation" id="3Ob-W8-w8h"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bTR-LU-WRQ">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bTR-LU-WRQ">
                                 <rect key="frame" x="216" y="663" width="143" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="143" id="07q-PK-CHz"/>
@@ -534,6 +537,11 @@ READY?</string>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Tricks" id="O7k-uF-Blw"/>
+                    <connections>
+                        <outlet property="firstTrickButton" destination="0Te-fW-EQL" id="7vV-Mm-Slc"/>
+                        <outlet property="goButton" destination="SVY-mc-9Yb" id="RLe-Aw-P5q"/>
+                        <outlet property="secondTrickButton" destination="bTR-LU-WRQ" id="bBr-5u-XXY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vYf-wI-awU" sceneMemberID="firstResponder"/>
             </objects>
@@ -827,7 +835,7 @@ Click show if wanna check</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999998807907104" translatesAutoresizingMaskIntoConstraints="NO" id="mDh-a9-Qi7">
                                 <rect key="frame" x="16" y="281.66666666666669" width="343" height="83.666666666666686"/>
                                 <string key="text">The result is 🪄
-4️⃣</string>
+1️⃣, 2️⃣, 3️⃣</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="35"/>
                                 <color key="textColor" systemColor="systemCyanColor"/>
                                 <nil key="highlightedColor"/>

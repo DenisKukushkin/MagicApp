@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC3F1E22292D416E0051EF92 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F1E21292D416E0051EF92 /* MainTabBarController.swift */; };
+		AC3F1E24292D4B240051EF92 /* orangeBall.gif in Resources */ = {isa = PBXBuildFile; fileRef = AC3F1E23292D4B240051EF92 /* orangeBall.gif */; };
 		AC646306292A683E009930C6 /* FirstTrickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC646305292A683E009930C6 /* FirstTrickViewController.swift */; };
 		AC646308292A685A009930C6 /* FirstTrickResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC646307292A685A009930C6 /* FirstTrickResultViewController.swift */; };
 		AC64630A292A6869009930C6 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC646309292A6869009930C6 /* Questions.swift */; };
@@ -34,6 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC3F1E21292D416E0051EF92 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		AC3F1E23292D4B240051EF92 /* orangeBall.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = orangeBall.gif; path = "../../../../../David'sApp/David'sApp/orangeBall.gif"; sourceTree = "<group>"; };
 		AC646305292A683E009930C6 /* FirstTrickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTrickViewController.swift; sourceTree = "<group>"; };
 		AC646307292A685A009930C6 /* FirstTrickResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTrickResultViewController.swift; sourceTree = "<group>"; };
 		AC646309292A6869009930C6 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
@@ -104,6 +108,7 @@
 		AC976E64292A35690004E93F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				AC3F1E21292D416E0051EF92 /* MainTabBarController.swift */,
 				AC976E4A292A27360004E93F /* StartViewController.swift */,
 				AC976E5A292A33B00004E93F /* LoginViewController.swift */,
 				AC976E5C292A33FB0004E93F /* WelcomeViewController.swift */,
@@ -132,6 +137,7 @@
 			children = (
 				AC976E4F292A27380004E93F /* Assets.xcassets */,
 				AC85B0C7292BF4380040474B /* ball.gif */,
+				AC3F1E23292D4B240051EF92 /* orangeBall.gif */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -243,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3F1E24292D4B240051EF92 /* orangeBall.gif in Resources */,
 				AC976E53292A27380004E93F /* LaunchScreen.storyboard in Resources */,
 				AC976E50292A27380004E93F /* Assets.xcassets in Resources */,
 				AC85B0C8292BF4380040474B /* ball.gif in Resources */,
@@ -274,6 +281,7 @@
 				ACF8C3F5292A406300C28D91 /* MagicianDetailsViewController.swift in Sources */,
 				AC85B0C2292BF1270040474B /* Gif.swift in Sources */,
 				AC976E47292A27360004E93F /* AppDelegate.swift in Sources */,
+				AC3F1E22292D416E0051EF92 /* MainTabBarController.swift in Sources */,
 				AC646306292A683E009930C6 /* FirstTrickViewController.swift in Sources */,
 				ACF8C3F7292A4C7A00C28D91 /* Magician.swift in Sources */,
 				AC976E49292A27360004E93F /* SceneDelegate.swift in Sources */,
