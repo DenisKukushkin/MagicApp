@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AC3F1E22292D416E0051EF92 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F1E21292D416E0051EF92 /* MainTabBarController.swift */; };
-		AC3F1E26292D4F650051EF92 /* roundBall.gif in Resources */ = {isa = PBXBuildFile; fileRef = AC3F1E25292D4F650051EF92 /* roundBall.gif */; };
+		AC6102FB2930073F00373C9F /* roundBall.gif in Resources */ = {isa = PBXBuildFile; fileRef = AC6102FA2930073E00373C9F /* roundBall.gif */; };
 		AC646306292A683E009930C6 /* FirstTrickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC646305292A683E009930C6 /* FirstTrickViewController.swift */; };
 		AC646308292A685A009930C6 /* FirstTrickResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC646307292A685A009930C6 /* FirstTrickResultViewController.swift */; };
-		AC64630A292A6869009930C6 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC646309292A6869009930C6 /* Questions.swift */; };
+		AC64630A292A6869009930C6 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC646309292A6869009930C6 /* Question.swift */; };
 		AC64630C292A81CE009930C6 /* MagicTricksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64630B292A81CE009930C6 /* MagicTricksViewController.swift */; };
 		AC85B0C2292BF1270040474B /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85B0C1292BF1270040474B /* Gif.swift */; };
 		AC85B0C6292BF2120040474B /* PredictBallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85B0C5292BF2120040474B /* PredictBallViewController.swift */; };
@@ -35,10 +35,10 @@
 
 /* Begin PBXFileReference section */
 		AC3F1E21292D416E0051EF92 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		AC3F1E25292D4F650051EF92 /* roundBall.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = roundBall.gif; path = ../../../../../../../roundBall.gif; sourceTree = "<group>"; };
+		AC6102FA2930073E00373C9F /* roundBall.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = roundBall.gif; path = "../../../../../../картинки/roundBall.gif"; sourceTree = "<group>"; };
 		AC646305292A683E009930C6 /* FirstTrickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTrickViewController.swift; sourceTree = "<group>"; };
 		AC646307292A685A009930C6 /* FirstTrickResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTrickResultViewController.swift; sourceTree = "<group>"; };
-		AC646309292A6869009930C6 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		AC646309292A6869009930C6 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		AC64630B292A81CE009930C6 /* MagicTricksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicTricksViewController.swift; sourceTree = "<group>"; };
 		AC85B0C1292BF1270040474B /* Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gif.swift; sourceTree = "<group>"; };
 		AC85B0C5292BF2120040474B /* PredictBallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictBallViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +73,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC3F1E27292D6E7C0051EF92 /* Developer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Developer;
+			sourceTree = "<group>";
+		};
+		AC3F1E28292D6ECF0051EF92 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AC976E5A292A33B00004E93F /* LoginViewController.swift */,
+				AC976E5C292A33FB0004E93F /* WelcomeViewController.swift */,
+				AC3F1E21292D416E0051EF92 /* MainTabBarController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		AC976E3A292A27360004E93F = {
 			isa = PBXGroup;
 			children = (
@@ -92,8 +109,8 @@
 		AC976E45292A27360004E93F /* MagicApp */ = {
 			isa = PBXGroup;
 			children = (
-				AC976E65292A358F0004E93F /* Models */,
 				AC976E67292A35B30004E93F /* StoryBoards */,
+				AC976E65292A358F0004E93F /* Models */,
 				AC976E64292A35690004E93F /* ViewControllers */,
 				AC976E66292A35A50004E93F /* Resources */,
 				AC976E68292A35D70004E93F /* App */,
@@ -104,14 +121,12 @@
 		AC976E64292A35690004E93F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				AC3F1E21292D416E0051EF92 /* MainTabBarController.swift */,
-				AC976E5A292A33B00004E93F /* LoginViewController.swift */,
-				AC976E5C292A33FB0004E93F /* WelcomeViewController.swift */,
-				ACF05F6B292C16A5006043B5 /* TableView */,
+				AC3F1E28292D6ECF0051EF92 /* Login */,
+				ACF05F6B292C16A5006043B5 /* Magicians */,
 				ACF05F6C292C170E006043B5 /* PredictBall */,
 				ACF05F6D292C1731006043B5 /* Tricks */,
+				AC3F1E27292D6E7C0051EF92 /* Developer */,
 				AC976E60292A34E70004E93F /* DeveloperViewController.swift */,
-				AC85B0C1292BF1270040474B /* Gif.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -119,10 +134,10 @@
 		AC976E65292A358F0004E93F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				ACF8C3F6292A4C7A00C28D91 /* Magician.swift */,
-				AC646309292A6869009930C6 /* Questions.swift */,
 				AC976E5E292A34A00004E93F /* MagicUser.swift */,
+				ACF8C3F6292A4C7A00C28D91 /* Magician.swift */,
 				ACF05F63292BFF14006043B5 /* Prediction.swift */,
+				AC646309292A6869009930C6 /* Question.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -131,8 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				AC976E4F292A27380004E93F /* Assets.xcassets */,
-				AC3F1E25292D4F650051EF92 /* roundBall.gif */,
 				AC85B0C7292BF4380040474B /* ball.gif */,
+				AC6102FA2930073E00373C9F /* roundBall.gif */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -151,18 +166,19 @@
 			children = (
 				AC976E46292A27360004E93F /* AppDelegate.swift */,
 				AC976E48292A27360004E93F /* SceneDelegate.swift */,
+				AC85B0C1292BF1270040474B /* Gif.swift */,
 				AC976E54292A27380004E93F /* Info.plist */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		ACF05F6B292C16A5006043B5 /* TableView */ = {
+		ACF05F6B292C16A5006043B5 /* Magicians */ = {
 			isa = PBXGroup;
 			children = (
 				ACF8C3F2292A404A00C28D91 /* MagicianListViewController.swift */,
 				ACF8C3F4292A406300C28D91 /* MagicianDetailsViewController.swift */,
 			);
-			path = TableView;
+			path = Magicians;
 			sourceTree = "<group>";
 		};
 		ACF05F6C292C170E006043B5 /* PredictBall */ = {
@@ -246,7 +262,7 @@
 				AC976E53292A27380004E93F /* LaunchScreen.storyboard in Resources */,
 				AC976E50292A27380004E93F /* Assets.xcassets in Resources */,
 				AC85B0C8292BF4380040474B /* ball.gif in Resources */,
-				AC3F1E26292D4F650051EF92 /* roundBall.gif in Resources */,
+				AC6102FB2930073F00373C9F /* roundBall.gif in Resources */,
 				AC976E4E292A27360004E93F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +278,7 @@
 				AC976E5B292A33B00004E93F /* LoginViewController.swift in Sources */,
 				ACF05F6A292C1331006043B5 /* SecondTrickResultViewController.swift in Sources */,
 				ACF8C3F3292A404A00C28D91 /* MagicianListViewController.swift in Sources */,
-				AC64630A292A6869009930C6 /* Questions.swift in Sources */,
+				AC64630A292A6869009930C6 /* Question.swift in Sources */,
 				AC976E5D292A33FB0004E93F /* WelcomeViewController.swift in Sources */,
 				AC976E61292A34E70004E93F /* DeveloperViewController.swift in Sources */,
 				AC976E5F292A34A00004E93F /* MagicUser.swift in Sources */,

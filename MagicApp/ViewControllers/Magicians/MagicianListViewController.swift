@@ -16,8 +16,6 @@ class MagicianListViewController: UITableViewController {
         super.viewDidLoad()
         tableView.rowHeight = 80
         navigationItem.leftBarButtonItem = editButtonItem
-    
-        
         
     }
 

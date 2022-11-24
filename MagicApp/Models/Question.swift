@@ -1,5 +1,5 @@
 //
-//  Questions.swift
+//  Question.swift
 //  MagicApp
 //
 //  Created by Denis Kukushkin on 20.11.2022.

@@ -36,6 +36,11 @@ I'm your magic app 🪄</string>
                                 <buttonConfiguration key="configuration" style="tinted" title="Push to start">
                                     <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
                                 </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="m0n-03-UUl" kind="presentation" modalPresentationStyle="fullScreen" id="Lxb-eV-ufd"/>
                                 </connections>
@@ -430,6 +435,11 @@ READY?</string>
                                 <buttonConfiguration key="configuration" style="tinted" title="GO!">
                                     <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
                                 </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="goButtonPressed" destination="Npj-4f-jO3" eventType="touchUpInside" id="I1o-1t-SBW"/>
                                 </connections>
@@ -442,6 +452,11 @@ READY?</string>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="trick 1️⃣"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="dVl-6K-M2k" kind="presentation" id="3Ob-W8-w8h"/>
                                 </connections>
@@ -454,6 +469,11 @@ READY?</string>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="trick 2️⃣"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="2Uf-Sx-5U8" kind="presentation" id="Afs-kw-TUx"/>
                                 </connections>

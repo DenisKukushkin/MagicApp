@@ -19,7 +19,6 @@ class MainTabBarController: UITabBarController {
     
     private lazy var middleButton: UIButton = {
         let middleButton = UIButton()
-        middleButton.layer.cornerRadius = middleButtonDiameter / 2
         middleButton.translatesAutoresizingMaskIntoConstraints = false
         return middleButton
     }()
@@ -27,33 +26,25 @@ class MainTabBarController: UITabBarController {
         private lazy var gifImageView: UIImageView = {
             let gifImageView = UIImageView()
             gifImageView.loadGif(name: "roundBall")
-            gifImageView.tintColor = .white
-            
             gifImageView.translatesAutoresizingMaskIntoConstraints = false
             return gifImageView
         }()
     
     private func makeUI() {
-        // 1
         tabBar.addSubview(middleButton)
         middleButton.addSubview(gifImageView)
         
-        // 2
         NSLayoutConstraint.activate([
-            // 2.1
             middleButton.heightAnchor.constraint(equalToConstant: middleButtonDiameter),
             middleButton.widthAnchor.constraint(equalToConstant: middleButtonDiameter),
-            // 2.2
             middleButton.centerXAnchor.constraint(equalTo: tabBar.centerXAnchor),
             middleButton.topAnchor.constraint(equalTo: tabBar.topAnchor, constant: -10)
         ])
         
         // 3
         NSLayoutConstraint.activate([
-            // 3.1
             gifImageView.heightAnchor.constraint(equalToConstant: middleButtonDiameter + 5),
             gifImageView.widthAnchor.constraint(equalToConstant: middleButtonDiameter + 5),
-            // 3.2
             gifImageView.centerXAnchor.constraint(equalTo: middleButton.centerXAnchor),
             gifImageView.centerYAnchor.constraint(equalTo: middleButton.centerYAnchor)
         ])

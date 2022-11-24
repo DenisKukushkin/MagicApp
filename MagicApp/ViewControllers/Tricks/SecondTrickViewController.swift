@@ -52,8 +52,10 @@ extension SecondTrickViewController {
             return
         }
         
-        performSegue(withIdentifier: "showResult", sender: nil)
-        
+        guard let sum = sumTextField.text else { return }
+        guard let _ = Int(sum) else { return showAlert(with: "Oops!", and: "Please enter number") }
+            performSegue(withIdentifier: "showResult", sender: nil)
+
     }
     
     private func showAlert(with title: String, and message: String) {
