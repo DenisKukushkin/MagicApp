@@ -41,7 +41,6 @@ class MainTabBarController: UITabBarController {
             middleButton.topAnchor.constraint(equalTo: tabBar.topAnchor, constant: -10)
         ])
         
-        // 3
         NSLayoutConstraint.activate([
             gifImageView.heightAnchor.constraint(equalToConstant: middleButtonDiameter + 5),
             gifImageView.widthAnchor.constraint(equalToConstant: middleButtonDiameter + 5),

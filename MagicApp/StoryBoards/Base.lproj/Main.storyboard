@@ -30,7 +30,7 @@ I'm your magic app 🪄</string>
                                 <rect key="frame" x="112.66666666666669" y="708" width="150" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="YfQ-AF-fld"/>
-                                    <constraint firstAttribute="width" constant="150" id="cOi-ih-oZE"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="cOi-ih-oZE"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Push to start">
@@ -429,7 +429,7 @@ READY?</string>
                                 <rect key="frame" x="112.66666666666669" y="659" width="150" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="ByI-tz-j2i"/>
-                                    <constraint firstAttribute="width" constant="150" id="P0a-xf-qYv"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="P0a-xf-qYv"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="GO!">
@@ -448,7 +448,7 @@ READY?</string>
                                 <rect key="frame" x="16" y="663" width="143" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="QJ1-GO-U5O"/>
-                                    <constraint firstAttribute="width" constant="143" id="eeO-xH-xh1"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="143" id="eeO-xH-xh1"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="trick 1️⃣"/>
@@ -464,7 +464,7 @@ READY?</string>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bTR-LU-WRQ">
                                 <rect key="frame" x="216" y="663" width="143" height="42"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="143" id="07q-PK-CHz"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="143" id="07q-PK-CHz"/>
                                     <constraint firstAttribute="height" constant="42" id="5d3-TA-kkI"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
@@ -488,6 +488,7 @@ READY?</string>
                             <constraint firstItem="pe7-JK-yr8" firstAttribute="bottom" secondItem="bTR-LU-WRQ" secondAttribute="bottom" constant="24" id="BDS-I4-xnu"/>
                             <constraint firstItem="HW7-9h-Rto" firstAttribute="centerY" secondItem="Yr1-Az-a0O" secondAttribute="centerY" id="ILG-vt-697"/>
                             <constraint firstItem="HW7-9h-Rto" firstAttribute="leading" secondItem="pe7-JK-yr8" secondAttribute="leading" constant="16" id="N94-o8-faW"/>
+                            <constraint firstItem="bTR-LU-WRQ" firstAttribute="leading" secondItem="0Te-fW-EQL" secondAttribute="trailing" constant="57" id="YT2-Ep-z72"/>
                             <constraint firstItem="SVY-mc-9Yb" firstAttribute="centerX" secondItem="Yr1-Az-a0O" secondAttribute="centerX" id="blO-5U-Hnx"/>
                             <constraint firstItem="pe7-JK-yr8" firstAttribute="bottom" secondItem="0Te-fW-EQL" secondAttribute="bottom" constant="24" id="f7i-cn-eQl"/>
                             <constraint firstItem="0Te-fW-EQL" firstAttribute="leading" secondItem="pe7-JK-yr8" secondAttribute="leading" constant="16" id="iBg-Nm-hxr"/>
